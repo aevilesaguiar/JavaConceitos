@@ -20,7 +20,6 @@ public class DesafioMap {
 		UnaryOperator<String> inverter = 
 				s-> new StringBuilder(s).reverse().toString();
 				
-				
 		Function<String, Integer> binarioParaInt =
 				s->Integer.parseInt(s,2);
 
